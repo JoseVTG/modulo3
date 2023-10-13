@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > table {
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse; /* collapse e separate */
+}
+
+tr > td {
+    border: 1px solid black;
+    text-align: center; /* alinhamento horizontal */
+    vertical-align: top;  /* alinhamento vertical*/
+    padding: 8px;
+}
